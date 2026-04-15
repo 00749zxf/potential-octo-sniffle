@@ -100,9 +100,11 @@ stop.bat
 #### 如果批处理脚本无法运行
 如果双击 `.bat` 文件没有反应，可能是以下原因：
 
+[/脚本就图一乐,我有时也打不开/]: # (打不开就用命令行打开,命令行有报错,上网查查就知道错在哪了)
+
 1. **文件关联问题**：
    - 右键点击文件 -> "打开方式" -> 选择"命令提示符"
-   - 或使用PowerShell脚本（推荐）
+   - 或使用PowerShell脚本（如果电脑里有的话）
 
 2. **权限问题**：
    ```powershell
@@ -128,13 +130,13 @@ stop.bat
 所有脚本都会：
 1. 检查环境依赖（Java, Maven, Node.js）
 2. 检查端口占用（8083, 5173）
-3. 安装前端依赖（如需要）
-4. 编译后端项目（如需要）
+3. 安装前端依赖（必安!）
+4. 编译后端项目（必安!）
 5. 启动后端和前端服务
 6. 验证服务健康状态
 
 ## 服务访问地址
-
+# (想换的话自己换)
 | 服务 | 地址 | 说明 |
 |------|------|------|
 | 前端界面 | http://localhost:5173 | Vue.js应用 |
@@ -158,6 +160,7 @@ stop.bat
 
 ## 开发说明
 
+[/大招/]: # (脚本一个都用不了就用这个,最为原始但最好用的打开方式)
 ### 后端开发
 ```bash
 cd nexus-backend
@@ -187,13 +190,14 @@ npm run build
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/nexus_demo
-    username: root
-    password: root
+    username: "你自己的"
+    password: "你自己的"
   redis:
     host: localhost
     port: 6379
 server:
   port: 8083
+#  有谁用谁,谁空用谁
   servlet:
     context-path: /api
 ```
@@ -257,6 +261,7 @@ server: {
 
 ## 技术栈
 
+ # (有就行,能跑就可以,版本冲突了再按这个来)
 ### 后端
 - **框架**: Spring Boot 3.2.4
 - **安全**: Spring Security + JWT
