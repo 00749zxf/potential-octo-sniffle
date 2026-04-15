@@ -18,7 +18,7 @@ NexusDemo/
 └── README.md              # 本文件
 ```
 
-## 环境要求
+## 环境要求,有就行,版本冲突了另说,没有的话安一个,别安太新的,也别安太老的,容易出bug
 
 1. **Java Development Kit (JDK) 21+**
 2. **Maven 3.6+**
