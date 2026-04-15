@@ -51,10 +51,11 @@ USE nexus_demo;
 ```
 
 ### 3. 多种启动方式
-#实际能用的只有手动启动,要用脚本启动你得自己捣鼓捣鼓自己配置
+
 
 #### 方式一：PowerShell脚本（推荐）
 ```powershell
+#实际能用的只有手动启动,要用脚本启动你得自己捣鼓捣鼓自己配置
 # 右键点击 start.ps1 -> "使用PowerShell运行"
 # 或从命令行运行：
 powershell -ExecutionPolicy Bypass -File start.ps1
