@@ -1,6 +1,6 @@
 # Nexus电商系统Demo
 
-基于Spring Boot + Vue.js的简化电商系统演示项目。
+基于Spring Boot + Vue.js的简化电商系统演示项目,demo版本是本地启动,然后后续版本会部署在云端环境。
 
 ## 项目结构
 
